@@ -1,8 +1,10 @@
 import React from 'react';
 import Navbar from '../shared/Navbar';
 import Footer from '../shared/Footer';
+import useTitle from '../hooks/useTitle';
 
 const Contact = () => {
+    useTitle('Contact');
     return (
         <div>
             <Navbar></Navbar>
@@ -21,12 +23,7 @@ const Contact = () => {
                             I welcome your feedback, questions, and suggestions.
                             If you have a specific question or comment, please feel
                             free to email me directly at <a className='link text-blue-400' href='mailto: khanosman1917@gmail.com'>khanosman1917@gmail.com</a>. I make
-                            an effort to respond to all messages within 24 hours,
-                            although it may take me longer during busy periods.
-                            Alternatively, you can use the contact form on my
-                            website to get in touch. Simply fill out the
-                            required fields and I'll get back to you as soon
-                            as possible.
+                            an effort to respond to all messages within 24 hours.
                         </article>
                     </div>
                 </div>

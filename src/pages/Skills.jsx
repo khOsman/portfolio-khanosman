@@ -18,6 +18,8 @@ const Skills = () => {
                 <Skill title={'express'} value={75}></Skill>
                 <Skill title={'nodejs'} value={70}></Skill>
                 <Skill title={'firebase'} value={80}></Skill>
+                <Skill title={'flutter'} value={65}></Skill>
+                <Skill title={'dart'} value={65}></Skill>
 
             </div>
         </div>

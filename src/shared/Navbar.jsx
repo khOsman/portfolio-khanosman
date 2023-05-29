@@ -26,7 +26,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-success bg-slate-100">Hire Me</a>
+                {location.pathname !== '/contact' ? <Link to="/contact" className="btn btn-success bg-slate-100">Hire Me</Link> : <></>}
             </div>
         </div>
     );
