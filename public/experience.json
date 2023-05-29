@@ -1,0 +1,49 @@
+[
+    {
+        "_id": "0",
+        "logo": "https://media.licdn.com/dms/image/C4E0BAQEtxtFOzPNYCA/company-logo_200_200/0/1519875379661?e=1693440000&v=beta&t=wGr3JmR1Y2aZ1NKGm2itJrL7JxdjmIsZWnBrwPcO6vY",
+        "title": "Software Engineer",
+        "company": "SQ Group",
+        "desc": [
+            "Maintaining different programming patterns",
+            "Implementing design on UI from Figma",
+            "Debugging and upgrading existing systems",
+            "Estimating workload and project delivery timeline",
+            "Fetching API data & updating Client-Side features",
+            "Writing and reviewing multi-application codes"
+        ],
+        "experience": "0.2",
+        "current": "1"
+    },
+    {
+        "_id": "1",
+        "logo": "https://media.licdn.com/dms/image/C4D0BAQF4oTnlLNpPjA/company-logo_100_100/0/1671007734607?e=1693440000&v=beta&t=0hrabdIHrNPavFXi6d_YYHJ926hb7mRcUIHZn7WxZT0",
+        "title": "Software Engineer",
+        "company": "AppCake Ltd.",
+        "desc": [
+            "Maintaining different programming patterns",
+            "Implementing design on UI from Figma",
+            "Debugging and upgrading existing systems",
+            "Estimating workload and project delivery timeline",
+            "Fetching API data & updating Client-Side features",
+            "Writing and reviewing multi-application codes"
+        ],
+        "experience": "0.5",
+        "current": "0"
+    },
+    {
+        "_id": "2",
+        "logo": "https://media.licdn.com/dms/image/D4D0BAQGYDb8BDfeYIQ/company-logo_200_200/0/1667212369470?e=1693440000&v=beta&t=_nRawg22QVacOtd4eGcP7d_Vg_siVvK5ynUulCYzpYM",
+        "title": "Software Engineer",
+        "company": "Ulka Games Ltd.",
+        "desc": [
+            "Analyzed technical requirements, specifications, and architecture",
+            "Written clean, testable code",
+            "Reviewed and refactored code on 'Apprefactoring' ",
+            "Practiced daily scrum with agile environments",
+            "Collaborated with the project manager to comply with project plans, draw flowcharts & create documents"
+        ],
+        "experience": "2.7",
+        "current": "0"
+    }
+]

@@ -1,0 +1,125 @@
+[
+    {
+        "_id": "0",
+        "title": "MiniHEROES",
+        "img": "./images/th_miniheroes.png",
+        "desc": "MiniHeroes is a marvel toy lover website. Users can see different marvel heroes' toys. Users can create their profile and upload new heroes. They can get rating from others and also set price for thier toys.",
+        "tech": [
+            {
+                "title": "ReactJs",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/539px-React-icon.svg.png"
+            },
+            {
+                "title": "Tailwind",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png"
+            },
+            {
+                "title": "DaisyUI",
+                "logo": "https://raw.githubusercontent.com/saadeghi/files/main/daisyui/logo-4.svg"
+            },
+            {
+                "title": "MongoDB",
+                "logo": "https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Image-HD.png"
+            },
+            {
+                "title": "Express",
+                "logo": "https://youteam.io/blog/wp-content/uploads/2022/04/expressjs_logo.png"
+            },
+            {
+                "title": "NodeJs",
+                "logo": "https://cdn.freebiesupply.com/logos/large/2x/nodejs-1-logo-png-transparent.png"
+            },
+            {
+                "title": "Firebase",
+                "logo": "https://cdn.freebiesupply.com/logos/thumbs/2x/firebase-1-logo.png"
+            },
+            {
+                "title": "Responsive",
+                "logo": "https://cdn-icons-png.flaticon.com/512/2696/2696459.png"
+            }
+        ],
+        "demo": "https://mini-heroes-44c98.web.app/"
+    },
+    {
+        "_id": "1",
+        "title": "Chefify",
+        "img": "./images/th_chefify.png",
+        "desc": "Chefify is a food lover website. Users can see different foods. Users can create their profile and like their favorite foods & chefs. They can get rating from others and also contact their favorite chefs.",
+        "tech": [
+            {
+                "title": "ReactJs",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/539px-React-icon.svg.png"
+            },
+            {
+                "title": "Tailwind",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png"
+            },
+            {
+                "title": "DaisyUI",
+                "logo": "https://raw.githubusercontent.com/saadeghi/files/main/daisyui/logo-4.svg"
+            },
+            {
+                "title": "MongoDB",
+                "logo": "https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Image-HD.png"
+            },
+            {
+                "title": "Express",
+                "logo": "https://youteam.io/blog/wp-content/uploads/2022/04/expressjs_logo.png"
+            },
+            {
+                "title": "NodeJs",
+                "logo": "https://cdn.freebiesupply.com/logos/large/2x/nodejs-1-logo-png-transparent.png"
+            },
+            {
+                "title": "Firebase",
+                "logo": "https://cdn.freebiesupply.com/logos/thumbs/2x/firebase-1-logo.png"
+            },
+            {
+                "title": "Responsive",
+                "logo": "https://cdn-icons-png.flaticon.com/512/2696/2696459.png"
+            }
+        ],
+        "demo": "https://chefify-4aeda.web.app/"
+    },
+    {
+        "_id": "3",
+        "title": "Knowledge Cafe",
+        "img": "./images/th_knowledge.png",
+        "desc": "Knowledge Cafe is very a polite design for blog lovers. In this project, blog post design is highlighted along with two important features - number of bookmarks & total reading time of number of books",
+        "tech": [
+            {
+                "title": "ReactJs",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/539px-React-icon.svg.png"
+            },
+            {
+                "title": "Tailwind",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png"
+            },
+            {
+                "title": "DaisyUI",
+                "logo": "https://raw.githubusercontent.com/saadeghi/files/main/daisyui/logo-4.svg"
+            },
+            {
+                "title": "MongoDB",
+                "logo": "https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Image-HD.png"
+            },
+            {
+                "title": "Express",
+                "logo": "https://youteam.io/blog/wp-content/uploads/2022/04/expressjs_logo.png"
+            },
+            {
+                "title": "NodeJs",
+                "logo": "https://cdn.freebiesupply.com/logos/large/2x/nodejs-1-logo-png-transparent.png"
+            },
+            {
+                "title": "Firebase",
+                "logo": "https://cdn.freebiesupply.com/logos/thumbs/2x/firebase-1-logo.png"
+            },
+            {
+                "title": "Responsive",
+                "logo": "https://cdn-icons-png.flaticon.com/512/2696/2696459.png"
+            }
+        ],
+        "demo": "https://rococo-starship-9c90a7.netlify.app/"
+    }
+]
