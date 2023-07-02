@@ -21,7 +21,7 @@ const ProjectCard = ({ project }) => {
                     }
                 </div>
                 <div className="card-actions justify-center mt-10">
-                    <a href={project.demo} target="_blank" rel="noopener noreferrer" className="btn w-full btn-success">View</a>
+                    <a href={project.demo} target="_blank" rel="noopener noreferrer" className="btn w-full bg-green-400 text-white">View</a>
                 </div>
             </div>
         </div>

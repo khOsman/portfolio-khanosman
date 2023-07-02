@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@keyframes pulsate {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.animated-background {
+    position: relative;
+    animation: pulsate 5s linear infinite;
+    background: linear-gradient(to right, #1e1935, #070230);
+    background-size: 200% 200%;
+}

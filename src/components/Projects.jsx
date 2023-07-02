@@ -38,9 +38,9 @@ const Projects = () => {
 
 
     return (
-        <div className='flex flex-col items-center'>
+        <div className='flex flex-col items-center text-white'>
             <div className='my-10 mx-auto'>
-                <h2 className='font-bold text-3xl uppercase'>Projects</h2>
+                <h2 className='font-bold text-3xl uppercase'>Latest Projects</h2>
             </div>
             <div className='my-10 mx-auto grid md:grid-cols-3 gap-4'>
                 {
