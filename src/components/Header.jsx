@@ -75,7 +75,7 @@ const Header = ({ onLeft }) => {
     }
 
     return (
-        <div id='home' className="hero min-h-screen text-white " >
+        <div data-section id='home' className="hero min-h-screen text-white " >
             {/* <Particles /> */}
             <div className={onLeft ? "hero-content flex-col lg:flex-row-reverse" : "hero-content flex-col "}>
                 <img src={onLeft ? "./images/mdosman.jpeg" : "./images/mdOsman.jpg"} className="w-[200px] h-[200px] rounded-full lg:w-[400px] lg:h-[400px] lg:max-w-sm lg:rounded-full shadow-3xl shadow-black" />
@@ -103,8 +103,9 @@ const Header = ({ onLeft }) => {
                         <div className="badge badge-lg p-4 hover:bg-sky-500 bg-sky-700 hover:text-white border-none"><a href="https://www.linkedin.com/in/khanosman01/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div>
                         <div className="badge badge-lg p-4 hover:bg-black hover:text-white border-none"><a href="https://github.com/khOsman" target="_blank" rel="noopener noreferrer">Github</a></div> */}
                         <a href="https://www.facebook.com/khan.osman01" target="_blank" rel="noopener noreferrer"><img className='w-[32px] h-[32px] lg:w-full lg:h-full' src="./images/facebook.png" alt="" /></a>
-                        <a href="https://www.linkedin.com/in/khanosman01/" target="_blank" rel="noopener noreferrer"><img className='w-[32px] h-[32px] lg:w-full lg:h-full' src="./images/linkedin.png" alt="" /></a>
                         <a href="https://github.com/khOsman" target="_blank" rel="noopener noreferrer"><img className='w-[32px] h-[32px] lg:w-full lg:h-full' src="./images/github.png" alt="" /></a>
+                        <a href="https://www.linkedin.com/in/khanosman01/" target="_blank" rel="noopener noreferrer"><img className='w-[32px] h-[32px] lg:w-full lg:h-full' src="./images/linkedin.png" alt="" /></a>
+
                     </div>
                 </div>
             </div>

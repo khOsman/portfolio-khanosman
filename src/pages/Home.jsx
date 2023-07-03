@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import Navbar from '../shared/Navbar';
 import Footer from '../shared/Footer';
 import Header from '../components/Header';
@@ -15,6 +15,9 @@ import Contact from './Contact';
 const Home = () => {
 
     useTitle('Home');
+
+
+
     return (
         <div >
             <Navbar></Navbar>

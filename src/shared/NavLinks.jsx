@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Link } from 'react-scroll'
 import useTitle from '../hooks/useTitle';
@@ -24,6 +24,35 @@ const NavLinks = () => {
     // if (location.pathname === '/skills') title = 'Skill';
     // if (location.pathname === '/contact') title = 'Contact';
     useTitle(pageId.toLocaleUpperCase());
+
+
+    const observer = useRef(null);
+    useEffect(() => {
+        observer.current = new IntersectionObserver((entries) => {
+            const visibleSection = entries.find((entry) => entry.isIntersecting)?.target;
+            //Update state with the visible section ID
+            if (visibleSection) {
+                // setActiveSection(visibleSection.id);
+                console.log('visibleSection', visibleSection.id);
+                setPageId(visibleSection.id);
+            }
+        });
+
+        //Get custom attribute data-section from all sections
+        const sections = document.querySelectorAll('[data-section]');
+
+        sections.forEach((section) => {
+            observer.current.observe(section);
+        });
+
+        //Cleanup function to remove observer
+        return () => {
+            sections.forEach((section) => {
+                observer.current.unobserve(section);
+            });
+        };
+
+    }, []);
 
 
     return (

@@ -29,7 +29,7 @@ const Contact = () => {
     return (
 
 
-        <div id="contact" className='flex lg:flex-row flex-col justify-center gap-8 items-center  mx-auto w-5/2 p-8 text-white '>
+        <div data-section id="contact" className='flex lg:flex-row flex-col justify-center gap-8 items-center  mx-auto w-5/2 p-8 text-white '>
 
             <div >
                 <img className='lg:w-full' src="./images/contact.avif" alt="" />
