@@ -2,7 +2,7 @@ import React from 'react';
 
 const Educational = () => {
     return (
-        <div data-section id="education" className='flex flex-col items-center text-white'>
+        <div data-section id="education" className='h-screen flex flex-col justify-center items-center text-white'>
             <div className='my-10 mx-auto'>
                 <h2 className='font-bold text-2xl  lg:text-3xl uppercase'>Educational Background</h2>
             </div>

@@ -3,7 +3,7 @@ import Skill from '../components/Skill';
 
 const Skills = () => {
     return (
-        <div data-section id="skills" className='flex flex-col items-center text-white'>
+        <div data-section id="skills" className='h-screen flex flex-col justify-center items-center text-white'>
             <div className='my-10 mx-auto'>
                 <h2 className='font-bold text-3xl uppercase'>Skill Set</h2>
             </div>
