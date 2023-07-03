@@ -12,12 +12,12 @@ const About = () => {
     useTitle('About');
     return (
         <div>
-            <Navbar></Navbar>
+
             <Header onLeft={true}></Header>
             <AboutDetails></AboutDetails>
             <Skills></Skills>
             <Educational></Educational>
-            <Footer></Footer>
+
         </div>
     );
 };

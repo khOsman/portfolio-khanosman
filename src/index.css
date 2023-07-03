@@ -20,6 +20,21 @@
 .animated-background {
     position: relative;
     animation: pulsate 5s linear infinite;
-    background: linear-gradient(to right, #1e1935, #070230);
+    background: linear-gradient(to right, #3c394a, #141220);
     background-size: 200% 200%;
+}
+
+.animated-background-to-left {
+    position: relative;
+    animation: pulsate 5s linear infinite;
+    background: linear-gradient(to left, #3c394a, #141220);
+    background-size: 200% 200%;
+}
+
+.bg-custom-secondary {
+    background: #3c394a;
+}
+
+.bg-custom {
+    background: #141220;
 }
