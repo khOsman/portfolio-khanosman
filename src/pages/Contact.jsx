@@ -5,11 +5,28 @@ import useTitle from '../hooks/useTitle';
 
 import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2'
+
 
 const Contact = () => {
     useTitle('Contact');
-    const { register, handleSubmit, formState: { errors } } = useForm();
+    const { register, reset, handleSubmit, formState: { errors } } = useForm();
     const form = useRef();
+
+    const alert = (message, isSuccess) => {
+        Swal.fire({
+            title: message,
+            icon: isSuccess ? 'success' : 'error',
+            confirmButtonColor: '#26de81',
+            showClass: {
+                popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+                popup: 'animate__animated animate__fadeOutUp'
+            }
+        })
+    }
+
     const onSubmit = async (data) => {
         try {
             // Replace with your backend API endpoint for sending emails
@@ -17,11 +34,15 @@ const Contact = () => {
             emailjs.sendForm(import.meta.env.VITE_email_sid, import.meta.env.VITE_email_tid, form.current, import.meta.env.VITE_email_pbk)
                 .then((result) => {
                     console.log('Email sent response', result.text);
+                    reset();
+                    alert("Email sent!!!\n" + data.name + ", you'll be contacted soon.", true);
                 }, (error) => {
                     console.log(error.text);
+                    alert(error.text, false);
                 });
         } catch (error) {
             console.log('Caught Error: ', error.text);
+            alert(error.text, false);
         }
     };
 
@@ -29,7 +50,7 @@ const Contact = () => {
     return (
 
 
-        <div data-section id="contact" className='flex lg:flex-row flex-col justify-center gap-8 items-center  mx-auto w-5/2 p-8 text-white '>
+        <div className='my-10 flex lg:flex-row flex-col justify-center gap-8 items-center  mx-auto w-5/2 p-8 text-white '>
 
             <div >
                 <img className='lg:w-full' src="./images/contact.avif" alt="" />

@@ -13,8 +13,8 @@ const AboutDetails = () => {
 
 
     return (
-        <div data-section id="experience" className='flex flex-col items-center text-white'>
-            <div className='my-10 mx-auto'>
+        <div className='flex flex-col items-center text-white'>
+            <div className='my-10 text-center'>
                 <h2 className='font-bold text-3xl uppercase'>Experience</h2>
             </div>
             <div className='my-5 grid  grid-cols-1 gap-8'>

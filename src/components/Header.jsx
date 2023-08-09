@@ -75,15 +75,16 @@ const Header = ({ onLeft }) => {
     }
 
     return (
-        <div data-section id='home' className="hero min-h-screen text-white " >
+        <div className="hero h-screen my-10 text-white " >
             {/* <Particles /> */}
             <div className={onLeft ? "hero-content flex-col lg:flex-row-reverse" : "hero-content flex-col "}>
-                <img src={onLeft ? "./images/mdosman.jpeg" : "./images/mdOsman.jpg"} className="w-[200px] h-[200px] rounded-full lg:w-[400px] lg:h-[400px] lg:max-w-sm lg:rounded-full shadow-3xl shadow-black" />
+                <img src={onLeft ? "./images/mdosman.jpeg" : "./images/mdOsman.jpg"} className="w-[150px] h-[150px] rounded-full lg:w-[300px] lg:h-[300px] lg:max-w-sm lg:rounded-full shadow-3xl shadow-black" />
                 <div>
                     <h1 className="text-5xl text-center font-bold">Hi! I'm Osman!</h1>
                     <p className="py-6 text-center">
                         I am a skilled Software Engineer with around 3.5 years of experience in software development. I have been working on a team that developed top-listed applications maintaining the software development life cycle and using the latest technologies like -
-                        <span className='text-green-400 font-bold'>
+                        <br />
+                        <span className='text-2xl lg:text-3xl text-green-400 font-bold'>
                             <Typewriter
                                 words={skillSet}
                                 loop={0}
@@ -95,8 +96,8 @@ const Header = ({ onLeft }) => {
                                 onLoopDone={handleDone}
 
                             />
-                            <br />
-                        </span> - seeking a <span className='font-bold'>Full Stack</span> <span className='text-green-700 font-bold'>M</span><span className='text-slate-700 font-bold'>E</span><span className='text-sky-400 font-bold'>R</span><span className='text-green-400 font-bold'>N</span> developer position to utilize my knowledge and skills.
+
+                        </span> <br /> - seeking a <span className='font-bold'>Full Stack</span> <span className='text-green-700 font-bold'>M</span><span className='text-slate-700 font-bold'>E</span><span className='text-sky-400 font-bold'>R</span><span className='text-green-400 font-bold'>N</span> developer position to utilize my knowledge and skills.
                     </p>
                     <div className='flex justify-center items-center gap-4'>
                         {/* <div className="badge badge-lg p-4 hover:bg-sky-400 bg-sky-500 hover:text-white border-none"><a href="https://www.facebook.com/khan.osman01" target="_blank" rel="noopener noreferrer">Facebook</a></div>

@@ -21,12 +21,12 @@ const Home = () => {
     return (
         <div >
             <Navbar></Navbar>
-            <Header></Header>
-            <Projects></Projects>
-            <AboutDetails></AboutDetails>
-            <Skills></Skills>
-            <Educational></Educational>
-            <Contact></Contact>
+            <div data-section id='home'><Header></Header></div>
+            <div data-section id="experience"> <AboutDetails></AboutDetails></div>
+            <div data-section id="skills"><Skills></Skills></div>
+            <div data-section id="projects" className='my-10'><Projects></Projects></div>
+            <div data-section id="education"><Educational></Educational></div>
+            <div data-section id="contact"><Contact></Contact></div>
             <Footer></Footer>
         </div>
     );
